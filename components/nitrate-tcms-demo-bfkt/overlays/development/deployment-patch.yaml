@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: nitrate-tcms-demo-bfkt
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/cqi-tenant/nitrate-tcms-demo/nitrate-tcms-demo-bfkt@sha256:8e2d97ba00e0bc29d07e2ef83856a1b2c43c3ae1ddfbe31ac2374ca95a9ebd75
+        name: my-python
+        resources: {}
+status: {}
