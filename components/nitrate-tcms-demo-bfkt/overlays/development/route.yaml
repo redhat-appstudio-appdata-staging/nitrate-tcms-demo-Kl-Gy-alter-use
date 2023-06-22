@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: nitrate-tcms-demo-bfkt
     app.kubernetes.io/part-of: nitrate-tcms-demo
-  name: nitrate-tcms-demo-bfktktl6
+  name: nitrate-tcms-demo-bfktuks6
 spec:
   path: /
   port:
