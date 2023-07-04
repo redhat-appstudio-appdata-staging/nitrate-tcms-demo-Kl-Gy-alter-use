@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nitrate-tcms-demo-bfkt
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/cqi-tenant/nitrate-tcms-demo/nitrate-tcms-demo-bfkt@sha256:7a271b698f37da7f3e9cbc38d682bb61b4605685cd5deab8fada8e8b317880a0
+      - image: quay.io/redhat-user-workloads-stage/cqi-tenant/nitrate-tcms-demo/nitrate-tcms-demo-bfkt@sha256:c49e0960fe47b22e7f583b5e6f0f7e706b8f45567e325786ff64292bfa1994e8
         name: my-python
         ports:
         - containerPort: 8081
