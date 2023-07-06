@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/cqi-tenant/nitrate-tcms-demo/nitrate-tcms-demo-bfkt@sha256:87b3b9997801513fe1fbcd834c3fcacb9ec0d5a65972ed98cca8fe5f8c1a5e9c
+      - image: quay.io/redhat-user-workloads-stage/cqi-tenant/nitrate-tcms-demo/nitrate-tcms-demo-bfkt@sha256:c49e0960fe47b22e7f583b5e6f0f7e706b8f45567e325786ff64292bfa1994e8
         name: my-python
         resources: {}
 status: {}
